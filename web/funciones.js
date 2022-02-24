@@ -1,4 +1,4 @@
-
+var selectedWindow = "none"
 window.addEventListener('message', function(event) {
     switch (event.data.action) {
         case 'loading_data':
